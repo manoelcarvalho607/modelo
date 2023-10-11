@@ -1,0 +1,25 @@
+:root {
+  font-family: Poppins, monospace;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-primary: #6BA612;
+  --color-secondary: #1289A6;
+  --color-terceary: #8912A6;
+  --color-brown: #A65912;
+  --color-green: #3F5124;
+  --color-soft-white: #f1f1f1;
+  --color-white: #efefef;
+  --color-black: #111;
+  --color-graw: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
