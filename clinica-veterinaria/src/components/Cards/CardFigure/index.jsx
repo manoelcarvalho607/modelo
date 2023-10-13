@@ -1,15 +1,16 @@
 import styles from './CardFigure.module.css';
-
-import image1 from './images/dog-640.jpg';
+import image1 from './images/dog-1280.jpg';
+import imagefundo from './images/img3.jpg';
 
 
 function CardFigure() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} style={{ backgroundImage: `url(${imagefundo})`}}>
             <div className={styles.text}>
                 <p>
-                    Cuidando com Carinho <br/>
-                    <span>CLÍNICA VETERINÁRIA</span> <br/>
+                    <strong>Cuidando</strong><br />
+                    com Carinho <br />
+                    <span>CLÍNICA VETERINÁRIA</span> <br />
                     Agende uma Consulta
                 </p>
                 <button className={styles.btn}>
