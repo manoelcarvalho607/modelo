@@ -12,7 +12,8 @@ function Carousel({children}) {
     const settings = {
         autoplay: true,
         autoplaySpeed: 6000,
-        variableWidth: 320,
+        variableWidth: 250, 
+        centerPadding: 30,
         dots: false,
         infinite: true,
         speed: 300,

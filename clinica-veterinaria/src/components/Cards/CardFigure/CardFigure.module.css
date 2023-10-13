@@ -36,10 +36,18 @@
     background-color: var(--color-primary);
 }
 
-
-@media (max-width: 750px) {
+@media (max-width: 1140px) {
     .container img {
-        width: 400px;
+        width: 500px;
+        height: 350px;
+        
+    }
+}
+
+
+@media (max-width: 538px) {
+    .container img {
+        width: 380px;
         height: 350px;
         
     }

@@ -1,7 +1,7 @@
 .container {
-    margin: auto;
+    /* margin: auto; */
     max-width: 1300px;
-    height: 800px;
+    height: 820px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -27,10 +27,8 @@
 .box03 {
     width: 730px;
     height: 610px;
+    margin-bottom: 1.5rem;
     flex-direction: column;
-    margin-right: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
     background-color: #ffffff;
     box-shadow: #1289A6 2px 2px 15px 5px;
     border-bottom-left-radius: 10px;
@@ -42,6 +40,13 @@
    
 }
 
+@media (max-width: 1140px) {
+    .box03 {
+        width: 520px;
+        height: 400px;
+    }
+}
+
 @media (max-width: 750px) {
     .box03 {
         width: 500px;
@@ -51,6 +56,6 @@
 
 @media (max-width: 550px) {
     .box03 {
-        width: 390px;
+        width: 320px;
     }
 }
