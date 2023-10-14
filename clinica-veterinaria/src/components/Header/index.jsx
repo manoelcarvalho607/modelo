@@ -10,6 +10,7 @@ function Header() {
     const [showMenu, setShowMenu] = useState(false)
     const toggleMenu = () => {
         setShowMenu(!showMenu)
+        console.log(showMenu);
     }
 
 
@@ -32,8 +33,9 @@ function Header() {
             </nav>
             <MenuButton click={toggleMenu} />
             <div 
-                className={`${styles.overlay} ${ showMenu ? styles.overlayShow : '' }`}
-                ></div>
+                // className={`${styles.overlay} ${ showMenu === false ? styles.overlayShow : '' }`}
+                className={ showMenu === false ? styles.overlay : styles.overlayShow }
+            ></div>
         </header>
 
     )
