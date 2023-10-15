@@ -12,8 +12,8 @@ function Carousel({children}) {
     const settings = {
         autoplay: true,
         autoplaySpeed: 6000,
-        variableWidth: 250, 
-        centerPadding: 30,
+        // variableWidth: 220, 
+        // centerPadding: 30,
         dots: false,
         infinite: true,
         speed: 300,
@@ -24,15 +24,16 @@ function Carousel({children}) {
           {
             breakpoint: 1024,
             settings: {
+              dots: false,
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               infinite: true,
-              dots: true
             }
           },
           {
             breakpoint: 600,
             settings: {
+              dots: false,
               slidesToShow: 1,
               slidesToScroll: 1,
               initialSlide: 0
@@ -41,6 +42,7 @@ function Carousel({children}) {
           {
             breakpoint: 480,
             settings: {
+              dots: false,
               slidesToShow: 1,
               slidesToScroll: 1
             }

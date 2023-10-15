@@ -1,5 +1,5 @@
 .container {
-    width: 300px;
+    width: 310px;
     height: 580px;
     margin: 5px;
     align-items: center;
@@ -32,6 +32,7 @@
 
 .text {
     margin:0.5px;
+    padding-bottom: 2px;
     width: 250px ;
     height: 100px;
     text-align: center;
@@ -40,7 +41,7 @@
 @media (max-width: 1140px) {
     .container {
         width: 250px;
-        height: 380px;
+        height: 390px;
         
     }
     .boxImg {
@@ -56,7 +57,7 @@
     .text {
         margin:0.5px;
         width: 150px ;
-        height: 50px;
+        height: 60px;
         text-align: center;
     }
 }

@@ -23,18 +23,19 @@ function Header() {
             </Link>
 
             <nav
-                className={`${styles.menuSandwich} ${ showMenu ? styles.show : '' }`}
+                className={`${styles.menuSandwich} ${showMenu ? styles.show : ''}`}
                 onClick={toggleMenu}
             >
                 <Link to="#">Serviços Clínicos</Link>
                 <Link to="#">Bem-estar Animal</Link>
                 <Link to="#">Quem Somos</Link>
                 <Link to="#">Perguntas Frequentes</Link>
+                <Link to="#">Contato</Link>
             </nav>
             <MenuButton click={toggleMenu} />
-            <div 
-                // className={`${styles.overlay} ${ showMenu === false ? styles.overlayShow : '' }`}
-                className={ showMenu === false ? styles.overlay : styles.overlayShow }
+            <div
+                className={showMenu === false ? styles.overlay : styles.overlayShow}
+                onClick={toggleMenu}
             ></div>
         </header>
 

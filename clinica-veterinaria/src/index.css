@@ -32,6 +32,8 @@
   opacity: .75;
   color: var(--color-secondary);
 }
-/* .slick-next {
-  margin-right: 15px;
+
+/* .slick-slide {
+  width: 310px;
 } */
+
