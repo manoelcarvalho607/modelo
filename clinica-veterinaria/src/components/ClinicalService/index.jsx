@@ -6,7 +6,7 @@ import image1 from '../Cards/CardCarousel/images/dog-640.jpg';
 
 function ClinicalService() {
     return (
-        <section className={s.container} >
+        <section  className={s.container} >
             <div className={s.box01} >
                 <h2>
                     <span>SERVIÇOS CLÍNICOS</span>

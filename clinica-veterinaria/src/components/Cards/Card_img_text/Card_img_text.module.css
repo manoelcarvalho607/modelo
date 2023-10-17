@@ -29,6 +29,9 @@
     width: 300px;
     height: 400px;
 }
+.titlespan {
+    font-size: 1rem;
+}
 
 .text {
     margin:0.5px;
