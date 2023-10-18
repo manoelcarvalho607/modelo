@@ -11,14 +11,15 @@ function Header() {
 
     return (
         <header className={s.header}>
-            <Link to="/">
-                <span>CLÍNICA VETERINÁRIA <br />
-                    LOGO DA MARCA
-                </span>
-            </Link>
-
+            <div className={s.header_title}>
+                <Link to="/">
+                    <span>CLÍNICA VETERINÁRIA <br />
+                        LOGO DA MARCA
+                    </span>
+                </Link>
+            </div>
             <nav
-                 className={s.nav_menu}
+                className={s.nav_menu}
             >
                 <Link to="#">Serviços Clínicos</Link>
                 <Link to="#">Bem-estar Animal</Link>
@@ -27,9 +28,9 @@ function Header() {
                 <Link to="#">Contato</Link>
             </nav>
             <div className={s.menuMobile}>
-               <MenuMobile/>
+                <MenuMobile />
             </div>
-            
+
         </header>
 
     )

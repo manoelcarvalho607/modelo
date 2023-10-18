@@ -2,6 +2,7 @@
     margin: auto;
     max-width: 1300px;
     height: 880px;
+    background-color: var(--color-white);
     padding-bottom: 0.5rem;
     display: flex;
     flex-flow: row wrap;
