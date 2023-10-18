@@ -1,10 +1,6 @@
 import s from './Model_container_box4.module.css';
 import { Link } from 'react-router-dom';
 
-import img_end from './images/icon-local.png';
-import img_phone from './images/icon-phone.png';
-import img_zap from './images/icon-whatsapp.png';
-import img_instagram from './images/icon-instagram.png';
 
 function Model_container_box4() {
 
@@ -14,19 +10,19 @@ function Model_container_box4() {
     return (
         <section className={s.container}>
             <div className={s.container_one}>
-                <div>
+                <div className={s.box_title}>
                     <h2><span>CONTATOS</span></h2>
                 </div>
                 <div className={s.box}>
                     <div className={s.box_one}>
                         <div className={s.box2}>
                             <Link>
-                                <figure className={s.box_figure2}>
-                                    <img
-                                        className={s.imgCard}
-                                        src={img_phone}
-                                        alt={'imagem de telefone de contato'}
-                                    />
+                                <figure className={s.box_figure}>
+                                    <div 
+                                        title='Telefone fixo'
+                                        className={s.box_img01}
+                                    >
+                                    </div>
                                 </figure>
                             </Link>
                             <p className={s.box_text3} >
@@ -35,13 +31,14 @@ function Model_container_box4() {
                         </div>
                         <div className={s.box2}>
                             <Link>
-                                <figure className={s.box_figure2}>
+                                {/* <figure className={s.box_figure2}>
                                 <img
-                                        className={s.imgCard}
+                                        title='Localização'
+                                        className={s.img_box4}
                                         src={img_end}
                                         alt={'imagem de localização de endereço'}
                                     />
-                                </figure>
+                                </figure> */}
                             </Link>
                             <p className={s.box_text2} >
                                 Av. modelo Nº 000 - Centro,Bauru - SP, 0000-000
@@ -51,13 +48,14 @@ function Model_container_box4() {
                     <div className={s.box_one}>
                         <div className={s.box1}>
                             <Link>
-                                <figure className={s.box_figure}>
+                                {/* <figure className={s.box_figure}>
                                 <img
-                                        className={s.imgCard}
+                                        title='WhatsApp'
+                                        className={s.img_box4}
                                         src={img_zap}
                                         alt={'imagem de contato whatsapp'}
                                     />
-                                </figure>
+                                </figure> */}
                             </Link>
                             <p className={s.box_text} >
                                 (14) 99999-0000
@@ -65,13 +63,14 @@ function Model_container_box4() {
                         </div>
                         <div className={s.box1}>
                             <Link>
-                                <figure className={s.box_figure}>
+                                {/* <figure className={s.box_figure}>
                                 <img
-                                        className={s.imgCard}
+                                        title='Instagram'
+                                        className={s.img_box4}
                                         src={img_instagram}
                                         alt={'imagem de icon instagram'}
                                     />
-                                </figure>
+                                </figure> */}
                             </Link>
                             <p className={s.box_text} >
                                 @ Instagram

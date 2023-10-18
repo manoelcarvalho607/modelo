@@ -1,7 +1,7 @@
 .container {
     margin: auto;
     max-width: 1300px;
-    height: 880px;
+    height: 780px;
     background-color: var(--color-white);
     padding-bottom: 0.5rem;
     display: flex;
@@ -47,9 +47,13 @@
 }
 
 @media (max-width: 1140px) {
+    .container {
+        height: 870px;
+    }
     .container img {
         width: 420px;
         height: 380px;
+        margin-top: 1rem;
         
     }
 }
