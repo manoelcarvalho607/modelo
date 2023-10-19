@@ -1,5 +1,3 @@
-
-import { Link } from 'react-router-dom';
 import MenuButton from '../MenuButton';
 import s from './MenuMobile.module.css';
 import { useState } from 'react';
@@ -22,11 +20,11 @@ function MenuMobile() {
                 className={`${s.menuSandwich} ${showMenu ? s.show : ''}`}
                 onClick={toggleMenu}
             >
-                <Link to="#">Serviços Clínicos</Link>
-                <Link to="#">Bem-estar Animal</Link>
-                <Link to="#">Quem Somos</Link>
-                <Link to="#">Perguntas Frequentes</Link>
-                <Link to="#">Contato</Link>
+                <a href='#servicos-clinicos'>Serviços Clínicos</a>
+                <a href='#bem-estar'>Bem-estar Animal</a>
+                <a href='#sobre-nos'>Sobre Nós</a>
+                <a href='#perguntas-frequentes'>Perguntas Frequentes</a>
+                <a href='#contato'>Contato</a>
             </nav>
             <MenuButton click={toggleMenu} />
             <div

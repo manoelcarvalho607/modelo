@@ -37,11 +37,12 @@
     
 }
 .box02 {
-    width: 300px;
+    width: 380px;
     height: 200px;
     margin-top: 1rem;
 }
 .title2 {
+    padding-left: 5px;
     margin-bottom: 1rem;
 }
 
@@ -59,9 +60,9 @@
 
 .box_figure {
     background-color: var(--color-secondary);
-    width: 72px;
-    height: 72px;
-    margin: 8px;
+    width: 63px;
+    height: 63px;
+    margin: 4px;
     border-radius: 50%;
     display: flex;
     align-items: center;

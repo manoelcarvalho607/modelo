@@ -10,8 +10,8 @@ function Model_container_box2() {
         <div className={s.container_one}>
             <section
                 className={s.container}  >
-                <div className={s.box01} >
-                    <h2>
+                <div id='bem-estar' className={s.box01} >
+                    <h2 >
                         <span>BEM-ESTAR ANIMAL</span>
                     </h2>
                     <p className={s.text_box1}>

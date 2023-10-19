@@ -6,8 +6,8 @@ import image1 from './images/dog-640.jpg';
 function Model_container_box3() {
     return (
         <section className={s.container} >
-            <div className={s.forever_box}>
-                <div className={s.box01} >
+            <div  className={s.forever_box}>
+                <div id='sobre-nos' className={s.box01} >
                     <h2>
                         <span>SOBRE NÓS</span>
                     </h2>

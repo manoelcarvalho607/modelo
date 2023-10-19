@@ -6,7 +6,7 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <footer className={styles.footer}>
-            <h2>&copy; 2023. Clínica Veterinária - SITE MODELO</h2>
+            <h2>&copy; 2023. Clínica Veterinária (MODELO-01) - VAIDEDIGITAL</h2>
             <div className={styles.whatsapp}>
                 <PluginWhatsapp />
             </div>
@@ -14,9 +14,9 @@ function Footer() {
                 <div className={styles.box01}>
                     <ul>
                         <li>
-                            <Link className={styles.link} to="#">
-                                <h2>Termos de Uso</h2>
-                            </Link>
+                            <a className={styles.link} href="#home">
+                                <h2>Home</h2>
+                            </a>
                         </li>
                         <li>
                             <Link className={styles.link} to="#">
@@ -24,20 +24,20 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link className={styles.link} to="#">
-                                <h2>Quem Somos</h2>
-                            </Link>
+                            <a className={styles.link} href='#sobre-nos'>
+                                <h2>Sobre Nós</h2>
+                            </a>
                         </li>
                         <li>
-                            <Link className={styles.link} to="#">
+                            <a className={styles.link} href='#perguntas-frequentes'>
                                 <h2>Perguntas Frequentes</h2>
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div className={styles.box02}>
                     <div className={styles.title2}>
-                        <h4>Redes Sociais</h4>
+                        <h4>Redes Sociais | Contato | Endereço da Clínica</h4>
                     </div>
                     <div className={styles.container_one}>
                         <div className={styles.box1}>

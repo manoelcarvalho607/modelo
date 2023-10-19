@@ -1,7 +1,6 @@
-
-import { Link } from 'react-router-dom';
 import s from './Header.module.css';
 import MenuMobile from '../MenuMobile';
+import { Link } from 'react-router-dom';
 
 
 
@@ -10,9 +9,9 @@ function Header() {
 
 
     return (
-        <header className={s.header}>
+        <header id='home' className={s.header}>
             <div className={s.header_title}>
-                <Link to="/">
+                <Link to='#'>
                     <span>CLÍNICA VETERINÁRIA <br />
                         LOGO DA MARCA
                     </span>
@@ -21,11 +20,11 @@ function Header() {
             <nav
                 className={s.nav_menu}
             >
-                <Link to="#">Serviços Clínicos</Link>
-                <Link to="#">Bem-estar Animal</Link>
-                <Link to="#">Quem Somos</Link>
-                <Link to="#">Perguntas Frequentes</Link>
-                <Link to="#">Contato</Link>
+                <a href="#servicos-clinicos">Serviços Clínicos</a>
+                <a href="#bem-estar">Bem-estar Animal</a>
+                <a href="#sobre-nos">Sobre Nós</a>
+                <a href="#perguntas-frequentes">Perguntas Frequentes</a>
+                <a href='#contato'>Contato</a>
                 
             </nav>
             <div className={s.menuMobile}>

@@ -8,8 +8,8 @@ function ClinicalService() {
     return (
         <section className={s.container} >
             <div className={s.forever_box} >
-                <div className={s.box01} >
-                    <h2>
+                <div id='servicos-clinicos'  className={s.box01} >
+                    <h2 className={s.title_font} >
                         <span>SERVIÇOS CLÍNICOS</span>
                     </h2>
                     <p className={s.text_box1}>

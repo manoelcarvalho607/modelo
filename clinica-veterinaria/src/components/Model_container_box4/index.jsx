@@ -2,6 +2,7 @@ import s from './Model_container_box4.module.css';
 import { Link } from 'react-router-dom';
 
 
+// eslint-disable-next-line react/prop-types
 function Model_container_box4() {
 
 
@@ -9,7 +10,7 @@ function Model_container_box4() {
 
     return (
         <section className={s.container}>
-            <div className={s.container_one}>
+            <div id='contato' className={s.container_one}>
                 <div className={s.box_title}>
                     <h2><span>CONTATOS</span></h2>
                 </div>

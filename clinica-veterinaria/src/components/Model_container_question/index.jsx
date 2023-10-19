@@ -38,8 +38,8 @@ function Model_container_question() {
         <div className={s.container}>
             <div className={s.box}>
                 <section>
-                    <div className={s.box_title}>
-                        <h2>
+                    <div id='perguntas-frequentes' className={s.box_title}>
+                        <h2 >
                             <span>PERGUNTAS FREQUENTES</span>
                         </h2>
                     </div>
