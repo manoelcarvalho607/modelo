@@ -26,9 +26,11 @@ function Header() {
                 <Link to="#">Quem Somos</Link>
                 <Link to="#">Perguntas Frequentes</Link>
                 <Link to="#">Contato</Link>
+                
             </nav>
             <div className={s.menuMobile}>
                 <MenuMobile />
+                
             </div>
 
         </header>

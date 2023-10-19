@@ -18,6 +18,9 @@
 }
 .box_title {
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .box {
     margin: auto;
@@ -33,7 +36,7 @@
 
 }
 .box1 {
-    width: 350px;
+    width: 470px;
     height: 80px;
     margin: 0.5rem;
     padding: 10px;
@@ -74,12 +77,13 @@
     justify-content: space-around;
 }
 .box_figure2 {
+    background-color: var(--color-secondary);
     width: 72px;
     height: 72px;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 .box_img01 {
@@ -91,6 +95,36 @@
 }
 .box_img01:hover {
     background-image: url(../Model_container_box4/images/icon-phone-brown-40x40.png) ;
+}
+.box_img02 {
+    background-color: var(--color-brown);
+    width: 40px;
+    height: 40px;
+    background: url(../Model_container_box4/images/icon-geo-white-40x40.png) no-repeat;
+
+}
+.box_img02:hover {
+    background-image: url(../Model_container_box4/images/icon-geo-brown-40x40.png) ;
+}
+.box_img03 {
+    background-color: var(--color-brown);
+    width: 45px;
+    height: 45px;
+    background: url(../Model_container_box4/images/icon-zap-white-45x45.png) no-repeat;
+
+}
+.box_img03:hover {
+    background-image: url(../Model_container_box4/images/icon-zap-brown-45x45.png) ;
+}
+.box_img04 {
+    background-color: var(--color-brown);
+    width: 40px;
+    height: 40px;
+    background: url(../Model_container_box4/images/icon-instagram-white-40x40.png) no-repeat;
+
+}
+.box_img04:hover {
+    background-image: url(../Model_container_box4/images/icon-instagram-brown40x40.png) ;
 }
 
 .box_text2 {
@@ -114,6 +148,13 @@
 }
 
 @media (max-width: 900px) {
+    .box_title {
+        margin-left: 10px;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .box {
       padding: 0;
     }
@@ -124,10 +165,10 @@
     padding: 5px;
    }
    .box1 {
+    width: 400px;
     height: 120px;
     margin: 0.2rem;
-
-    
+    padding: 5px;
    }
    .box_text2 {
     width: 310px;

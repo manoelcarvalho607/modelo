@@ -1,8 +1,15 @@
 .container {
     margin: auto;
-    max-width: 1300px;
+    width: 100%;
     height: 780px;
     background-color: var(--color-white);
+    
+
+}
+.forever_box {
+    margin: auto;
+    max-width: 1300px;
+    height: 780px;
     padding-bottom: 0.5rem;
     display: flex;
     flex-flow: row wrap;

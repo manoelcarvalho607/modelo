@@ -107,7 +107,7 @@ section span {
 
 @media (max-width: 535px) {
     .container {
-        height: 900px;
+        height: 860px;
     }
     .box {
         margin-top: -200px;
