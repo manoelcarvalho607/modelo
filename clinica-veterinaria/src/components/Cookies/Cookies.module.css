@@ -19,7 +19,7 @@
 }
 .container {
     background-color: var(--color-primary);
-    margin-top: 20vh;
+    bottom: 0;
     width: 100%;
     position: fixed;
     display: flex;
